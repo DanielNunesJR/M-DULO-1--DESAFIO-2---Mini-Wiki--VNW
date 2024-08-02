@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(to right, #FDC830, #F37335);
+}
+
+img {
+  /* Perfil Image */
+  position: absolute;
+  width: 237px;
+  height: 229px;
+  left: 120px;
+  top: 116px;
+  border-radius: 50%;
+}
+
+.nome {
+  /* Nome e Sobrenome */
+  position: absolute;
+  width: 388px;
+  height: 50px;
+  left: 119px;
+  top: 384px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 44px;
+  color: #070006;
+}
+
+p {
+  position: absolute;
+  width: 1216px;
+  height: 66px;
+  top: 452px;
+  left: 119px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px; /* Corrigido de size para font-size */
+  line-height: 21px;
+}
+
+a {
+  /* Minha cidade */
+  position: absolute;
+  width: 1216px;
+  height: 66px;
+  left: 120px;
+  top: 546px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.background {
+  background-image: linear-gradient(to right, #F37335, #FDC830);
+  position: relative; /* Alterado de absolute para relative */
+  width: 100%;
+  height: auto;
+  top: 640px;
+}
+
+.teste {
+  padding: 20px;
+  margin: 20px;
+}
+
+h2 {
+  /* Títulos das Seções */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FDC830;
+  margin-bottom: 10px; /* Espaço abaixo do título */
+  margin-left: 54px;
+}
+
+ol {
+  /* Listas de Itens */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-left: 54px; /* Espaço à esquerda da lista */
+}/*# sourceMappingURL=style.css.map */
